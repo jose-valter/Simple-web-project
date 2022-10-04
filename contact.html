@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+
+    <body>
+        <header>
+            <nav class="navigation">
+                <a href="#" class="logo">T<span>h</span>e C<span>ha</span>d</a>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a href="about.html">About</a></li>
+                    <li class="nav-item"><a href="menu.html">Menu</a></li>
+                    <li class="nav-item"><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </header>
+
+        <main class="form">
+            <h4 class="text-h4">Contact The Chad</h4>
+            <form action="">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" required> - 
+                    <label for="data">Birthdate:</label>
+                    <input type="date" name="data" id="data">
+                </div>
+                <br>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" required> - 
+                    <label for="psw">Password:</label>
+                    <input type="password" name="psw" id="psw" required>
+                </div>
+                <br>
+                <div>
+                    - Gender:
+                    <label for="female">F</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="male">M</label>
+                    <input type="radio" name="gender" id="male" value="male">
+                </div>
+                <br>
+                <div>
+                    <textarea name="description" id="description" cols="50" rows="10" placeholder="Write your chad message"></textarea>
+                </div>
+                <br>
+                <div>
+                    <input type="submit" value="Submit" class="contact-btn">
+                </div>
+            </form>
+        </main>
+        <script src="./scripts/script.js"></script>
+    </body>
+</html>

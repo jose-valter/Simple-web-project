@@ -86,7 +86,7 @@ body{
     justify-content: space-between;
     padding: 0 10%;
     margin: 6% 0;
-    overflow: auto;
+    overflow: hidden;
 }
 .home-text{
     max-width: 37rem;    
@@ -327,6 +327,6 @@ body{
 
     .menu-page{
         padding: 100px 2%;
-        overflow: auto;
+        overflow: hidden;
     }
 }
